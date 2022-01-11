@@ -13,7 +13,7 @@ for ii in range(9):
   while True:
     pc = random.randint(0,8)
     if panel[pc]==0:
-      panel[pc] = 2
+      panel[pc] = 2 
       break;
   print(panel[0:3])
   print(panel[3:6])
